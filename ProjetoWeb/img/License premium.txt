@@ -1,0 +1,22 @@
+                  </p>
+                  <p class="informacao-endereco">
+                    Cidade: {{item.cidadeNome}}
+                  </p>
+                  <p class="informacao-endereco">
+                    Endereço: {{item.endereco}}, N° {{item.numero}}. {{item.complemento}}
+                  </p>
+                  <div class="content-buttons-detalhes-medicos">
+                    <button class="button-card-detalhes-medicos-resultados" ng-click="item.fade = !item.fade"><i class="ion ion-chevron-up"></i></button>
+                    <button ng-click="agendamentoConsulta(item)" class="button-card-agendar-consulta"><i class="ion ion-ios-list-outline"></i>Agendar Consulta</button>
+                  </div>
+                </div>
+
+                <!--Fim do bloco detalhes do medico-->
+
+                <div class="content-button-card-medicos" ng-click="item.fade = !item.fade" ng-show="item.fade">
+                  <button class="button-detalhes-medicos"><i class="ion ion-ios-list-outline"></i>Mais Detalhes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+

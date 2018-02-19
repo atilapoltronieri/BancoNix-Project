@@ -1,0 +1,45 @@
+<ion-view title="Local da Consulta">
+
+	<ion-nav-bar class="bar-uniconsulta">
+    	<ion-nav-back-button>
+    	</ion-nav-back-button>
+    </ion-nav-bar>
+
+	<ion-content class="ion-content-agendarconsulta">
+
+	<ng-form name="formConsulta" ng-submit="submit()" ng-controller="consultaCtrl" ng-init="init()">
+    <div id="filtro" ng-show="filtroFade">
+
+        <div class="row">
+        <div class="col col-100 content-buscador-agendamento">
+          <h2><i class="ion ion-ios-search-strong"></i>&nbsp;Encontre seu Médico.</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-100">
+          <div class="list list-inset margin-zero">
+            <label class="item item-input item-select">
+              <div class="input-label">
+              Estado
+              </div>
+              <select ng-required="true" ng-change="carregarCidades()" data-ng-options="o.nome for o in estados" data-ng-model="estadosSelectedOption"></select>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-100">
+          <div class="list list-inset margin-zero">
+            <label class="item item-input item-select">
+              <div class="input-label">
+              Cidade
+              </div>
+              <select ng-disabled="!estadosSelectedOption" data-ng-options="o.nome for o in cidades" data-ng-model="cidadesSelectedOption"></select>
+            </label>
+          </div>
+        </div>
+      </div>
+
+ 

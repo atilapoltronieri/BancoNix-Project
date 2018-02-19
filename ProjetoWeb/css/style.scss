@@ -1,0 +1,1344 @@
+/* Empty. Add your own CSS if you like */
+
+.bar-uniconsulta {
+  background: #0080bb;
+  border-bottom: none;
+}
+
+.title-home {
+  margin: 0px !important;
+}
+
+[nav-bar-transition="ios"] [nav-bar="active"] .bar {
+  background: #0080bb;
+  border-bottom: transparent;
+}
+
+.button-menu-uniconsulta {
+  color: #FFFFFF;
+
+  &:hover {
+    color: #FFFFFF;
+  }
+}
+
+.scroll {
+  width: 100%;
+  height: 100%;
+}
+
+.content-logo {
+  padding: 25% 0px 0pc;
+  text-align: center;
+}
+
+.logo {
+  width: 215px;
+}
+
+/*Loading do Aplicativo*/
+
+.spinner-design {
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+
+  .loading-design {
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+  }
+}
+
+/*Loading do Aplicativo*/
+
+.bar {
+  height: 55px;
+
+  .button.back-button, .bar button.back-button {
+    padding-top: 5px;
+    color: #ffffff;
+    font-weight: 300;
+
+    .default-title {
+      font-size: 0px;
+    }
+
+    .default-title:after {
+      content: "Voltar";
+      font-size: 16px;
+    }
+
+    .default-title.hide {
+      display: block !important;
+    }
+
+    .previous-title {
+      display: none;
+    }
+  }
+
+  .title {
+    /*left: 0px !important;*/
+    height: 55px;
+    line-height: 55px !important;
+    text-align: center !important;
+    color: #ffffff;
+    font-size: 16px !important;
+    font-weight: 300;
+
+    img {
+      width: 160px;
+      padding-top: 12px;
+    }
+  }
+
+}
+
+.ion-content-login {
+  width: 100%;
+  background: #0080bb;
+
+  .list {
+    margin: 0px 10px;
+    background: transparent;
+
+    .item-input {
+      padding: 5px;
+      margin-bottom: 10px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+      position: relative;
+
+      .input-label {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+      }
+
+      input[type="text"] {
+        padding-left: 20px;
+        padding-right: 10px;
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent;
+      }
+
+      input[type="text"]::placeholder {
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      input[type="password"] {
+        padding-left: 20px;
+        padding-right: 10px;
+        color: rgba(255, 255, 255, 0.9);
+      }
+    }
+
+    .user-input:before {
+      position: absolute;
+      bottom: 13px;
+      color: rgba(255, 255, 255, 0.9);
+      content: "\f2c0";
+      font-family: FontAwesome;
+      font-size: 14px;
+      font-weight: normal;
+    }
+
+    .password-input:before {
+      position: absolute;
+      bottom: 13px;
+      color: rgba(255, 255, 255, 0.9);
+      content: "\f023";
+      font-family: FontAwesome;
+      font-size: 14px;
+      font-weight: normal;
+    }
+  }
+
+  .ion-content-buttons-login {
+    padding: 0px 15px;
+
+    .button-login {
+      background: #12afab !important;
+      border: 1px solid #12afab;
+      border-radius: 50px;
+      color: #FFFFFF;
+      transition: 1s;
+
+      &:hover {
+        background: #129a97;
+        border: 1px solid #129a97;
+        color: #ffffff;
+        transition: 1s;
+      }
+
+      &:focus {
+        background: #129a97;
+        border: 1px solid #129a97;
+        color: #ffffff;
+        transition: 1s;
+      }
+    }
+  }
+
+  .content-button-cadastrar {
+    display: block;
+
+    .button-cadastrar {
+      min-height: initial;
+      line-height: initial;
+      margin: 0px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 12px;
+      background: transparent;
+      text-align: right;
+    }
+
+    .button-cadastrar:hover {
+      text-decoration: none;
+    }
+
+    .button-cadastrar.activated {
+      border: 1px solid transparent;
+      text-decoration: none;
+    }
+  }
+
+  .content-button-recuperar-senha {
+    display: block;
+
+    .button-recuperar-senha {
+      min-height: initial;
+      line-height: initial;
+      margin: 0px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 12px;
+      background: transparent;
+      text-align: left;
+    }
+
+    .button-recuperar-senha:hover {
+      text-decoration: none;
+    }
+
+    .button-recuperar-senha.activated {
+      border: 1px solid transparent;
+      text-decoration: none;
+    }
+  }
+}
+
+.ion-content-registrar {
+  .list {
+
+    .item-input {
+
+      .input-label {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+      }
+
+      input[type="text"] {
+        margin-top: 0px;
+        padding: 5px 0px !important;
+        background: transparent;
+      }
+
+      input[type="password"] {
+        padding: 5px 0px !important;
+        background: transparent;
+      }
+    }
+
+  }
+
+  .ion-content-button-registrar {
+    padding: 0px 15px;
+
+    input[type="submit"] {
+      background: #12afab !important;
+      border: 1px solid #12afab;
+      border-radius: 50px;
+      color: #FFFFFF;
+      transition: 1s;
+    }
+  }
+}
+
+.ion-content-senha {
+  background: #0080bb;
+
+  .list-inset {
+    margin: 0px 10px;
+    background: transparent;
+
+    .item-input {
+      padding: 5px;
+      margin-bottom: 10px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+      position: relative;
+
+      .input-label {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+      }
+
+      input[type="text"] {
+        margin-top: 0px;
+        padding: 5px 0px !important;
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent;
+      }
+
+      input[type="password"] {
+        margin-top: 0px;
+        padding: 5px 0px !important;
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent;
+      }
+    }
+  }
+
+  .button-senha {
+    background: #12afab !important;
+    border: 1px solid #12afab;
+    border-radius: 50px;
+    color: #FFFFFF;
+    transition: 1s;
+  }
+}
+
+.ion-content-homepage {
+  /*background: #F9F9F9;*/
+  padding: 0px;
+  /*background-image: url(../img/background-home.jpg);
+  background-size: 350%;
+  background-position-x: 45%;
+  background-repeat: no-repeat;*/
+
+  .content-dados-home {
+    display: block;
+    width: 100%;
+    height: 75%;
+    position: relative;
+    z-index: 1;
+    background-image: url(../img/perfil-background.jpg);
+    background-size: cover;
+    background-position-x: 40%;
+    background-repeat: no-repeat;
+
+    .pelicula-home {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: 2;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .content-data-home {
+      display: block;
+      padding: 30px 15px 15px;
+      color: #ffffff;
+      position: relative;
+      z-index: 3;
+      text-align: center;
+
+      .dia-semana {
+        display: block;
+        font-size: 16px;
+      }
+
+      .dia-mes {
+        display: block;
+        font-size: 80px;
+        line-height: initial;
+      }
+
+      .mes-ano {
+        display: block;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .home-content-cards {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 2;
+
+    .row {
+      padding: 0px;
+
+      .col-100 {
+        padding: 0px;
+
+        .item-card-home {
+          display: block;
+          width: 100%;
+          height: auto;
+          padding: 20px 75px;
+          margin: 0 auto;
+          background: #0080bb;
+          border-radius: 0px;
+          border-top: 1px solid #006696;
+          color: #FFFFFF;
+          font-size: 16px;
+          font-weight: 300;
+          position: relative;
+          text-align: left;
+
+          i {
+            font-size: 22px;
+            background: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 60px;
+            height: 60px;
+            padding: 15px;
+            text-align: center;
+          }
+        }
+
+        .item-card-consultas {
+
+          i {
+            border-right: 3px solid rgba(18, 175, 171, 1);
+          }
+        }
+
+        .item-card-minhas-consultas {
+
+          i {
+            border-right: 3px solid #6c7ed6;
+          }
+        }
+
+        .item-card-meus-perfis {
+
+          i {
+            border-right: 3px solid rgba(214, 108, 155, 1);
+          }
+        }
+
+        .item-card-minha-conta {
+          cursor: pointer;
+
+          i {
+            border-right: 3px solid rgba(233, 153, 46, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+.ion-content-minhas-consultas {
+  width: 100%;
+  padding: 15px 10px;
+  background: #0080bb;
+
+  .content-filtro-minhas-consultas {
+
+    .card-filtro {
+      margin: 0px;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: none;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 5px;
+
+      .title-fitro-minhas-consultas {
+        display: block;
+        margin: 0px;
+        padding: 15px;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      .item-select {
+        background: transparent;
+        border: none;
+
+        .input-label {
+          color: rgba(255, 255, 255, 0.9);
+          font-size: 14px;
+          font-weight: 400;
+        }
+
+        select {
+          color: rgba(255, 255, 255, 0.9);
+          background: transparent;
+        }
+      }
+
+      .content-button-hidden-filter {
+        display: block;
+        padding: 15px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: right;
+
+        .msg-filter {
+          float: left;
+          padding-top: 2px;
+          color: rgba(255, 255, 255, 0.9);
+          font-size: 14px;
+          font-weight: 400;
+        }
+
+        .button-hidden-filter {
+          color: rgba(255, 255, 255, 0.9);
+          background: transparent;
+          border: none;
+          position: relative;
+          top: 2px;
+        }
+      }
+    }
+
+    .content-abrir-filtro {
+      display: block;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 5px;
+      text-align: right;
+
+      .msg-filter {
+        float: left;
+        padding-top: 2px;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      .button-show-filter {
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent;
+        border: none;
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+
+  .link-detalhes-medico {
+    display: block;
+    min-height: 115px;
+    margin: 15px 10px 0px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    position: relative;
+
+    .pelicula-item-card {
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.2);
+      position: relative;
+
+      .card-lista-resultados {
+        margin: 0px;
+        background: transparent;
+        box-shadow: none;
+
+        .item-avatar {
+          padding: 0px;
+          min-height: initial;
+          background: transparent;
+          border: none;
+
+          h2 {
+            margin-bottom: 5px;
+            color: #2d2d2d;
+            font-size: 16px;
+            font-weight: 500 !important;
+          }
+
+          p {
+            display: block;
+            color: #2d2d2d;
+            font-weight: 400;
+          }
+
+          p.data-card-consulta{
+            display: inline-block;
+            width: 50%;
+            color: #0080bb;
+          }
+
+          p.horario-card-consulta{
+            display: inline-block;
+            width: 48%;
+            text-align: right;
+          }
+
+          p.nome-medico-card-consulta{
+            display: block;
+            padding: 10px;
+            margin: 5px 0px 10px;
+            font-size: 12px;
+            background: #eeeeee;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            white-space: normal;
+            text-align: center;
+          }
+
+          p.endereco-card-consulta{
+            margin-bottom: 5px;
+          }
+        }
+
+        .content-button-card-medicos{
+          padding-top: 10px;
+          margin-top: 10px;
+          border-top: 1px solid #dddddd;
+
+          button {
+            display: block;
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px 24px;
+            background: #12afab;
+            border: 1px solid #12afab;
+            border-radius: 50px;
+            color: #ffffff;
+            font-family: roboto;
+            font-size: 14px;
+            font-weight: 400;
+
+            &:hover {
+              background: #12afab;
+            }
+
+            &:focus {
+              background: #12afab;
+            }
+
+            i {
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.ion-content-minhaconta {
+  width: 100%;
+  background: #0080bb;
+  padding: 15px 10px;
+
+  .button-add-perfil {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: #12afab !important;
+    border: 1px solid #12afab;
+    border-radius: 50px;
+    color: #FFFFFF;
+    transition: 1s;
+  }
+
+  .list-card-opcoes {
+    margin: 0px;
+  }
+
+  .link-detalhes-medico {
+    .card {
+      display: block;
+      min-height: 115px;
+      margin: 15px 0px 0px;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.95);
+      position: relative;
+
+      .item-avatar {
+        display: block;
+        height: 100%;
+        padding: 15px;
+        background: rgba(255, 255, 255, 0.2);
+        position: relative;
+
+        .content-dados-card-avatar {
+          display: block;
+
+          .nome-usuario-perfil {
+            margin-bottom: 5px;
+            color: #2d2d2d;
+            font-size: 16px;
+            font-weight: 500 !important;
+          }
+
+          .nome-convenio-perfil{
+            display: inline-block;
+            width: 50%;
+            color: #0080bb;
+            font-weight: 400;
+          }
+
+          .numero-convenio-perfil{
+            display: inline-block;
+            width: 48%;
+            color: #2d2d2d;
+            font-weight: 400;
+            text-align: right;
+          }
+
+          .item-card-perfil {
+            display: block;
+            margin-bottom: 0px;
+            color: #2d2d2d;
+            font-weight: 400;
+          }
+
+          .content-button-card-perfil{
+            padding-top: 10px;
+            margin-top: 10px;
+            border-top: 1px solid #dddddd;
+
+            .button-detalhes-cards-perfil {
+              display: block;
+              width: 100%;
+              margin-top: 5px;
+              padding: 10px 24px;
+              background: #12afab;
+              border: 1px solid #12afab;
+              border-radius: 50px;
+              color: #ffffff;
+              font-family: roboto;
+              font-size: 14px;
+              font-weight: 400;
+
+              i {
+                margin-right: 5px;
+              }
+
+              &:hover {
+                background: #12afab;
+              }
+
+              &:focus {
+                background: #12afab;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.content-meus-dados {
+
+  .list {
+    margin: 0px;
+    background: transparent;
+
+    .item-input {
+      padding: 5px;
+      margin-bottom: 10px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+      position: relative;
+
+      .input-label {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+      }
+
+      select {
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent;
+      }
+
+      input[type="text"] {
+        margin-top: 0px;
+        padding: 5px 0px !important;
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent;
+      }
+    }
+  }
+
+  .button-salvar-meus-dados {
+    margin-bottom: 0px;
+    background: #12afab !important;
+    border: 1px solid #12afab;
+    border-radius: 50px;
+    color: #FFFFFF;
+    transition: 1s;
+  }
+
+}
+
+.ion-content-agendarconsulta {
+  width: 100%;
+  background: #0080bb;
+  padding: 30px 20px;
+
+  #filtro {
+    margin: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+
+    .row {
+      padding: 0px;
+
+      .content-buscador-agendamento {
+        padding: 0px;
+
+        h2 {
+          display: block;
+          margin: 0px;
+          padding: 15px;
+          color: rgba(255, 255, 255, 0.9);
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+
+      .list-inset {
+        margin: 0px;
+        background: transparent;
+
+        .item-input {
+          background: transparent;
+          border: none;
+
+          .input-label {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+            font-weight: 400;
+          }
+
+          select {
+            padding: 0 30px 0 16px;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+            font-weight: 400;
+            background: transparent;
+          }
+        }
+      }
+
+      .content-button-buscador {
+        display: block;
+        padding: 15px;
+
+        a {
+          margin: 0px;
+          background: #12afab !important;
+          border: 1px solid #12afab;
+          border-radius: 50px;
+          color: #FFFFFF;
+          transition: 1s;
+        }
+      }
+    }
+
+    .content-button-hidden-filter {
+      display: block;
+      padding: 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      text-align: right;
+
+      .msg-filter {
+        float: left;
+        padding-top: 2px;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      .button-hidden-filter {
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent;
+        border: none;
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+
+  .content-button-show-filter {
+    display: block;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    text-align: right;
+
+    .msg-filter {
+      float: left;
+      padding-top: 2px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .button-show-filter {
+      color: rgba(255, 255, 255, 0.9);
+      background: transparent;
+      border: none;
+      position: relative;
+      top: 2px;
+    }
+  }
+
+  .content-lista-medicos {
+
+    .row {
+      padding: 0px;
+
+      .col-100 {
+        padding: 0px;
+      }
+    }
+
+    .card-lista-resultados-medicos {
+      display: block;
+      min-height: 145px;
+      margin: 15px 0px 0px;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.95);
+      position: relative;
+
+      .pelicula-card-medicos {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        background: rgba(255, 255, 255, 0.2);
+
+        .item-avatar {
+          display: block;
+          padding: 0px;
+          background: transparent;
+          border: none;
+
+          .nome-medico {
+            margin-bottom: 5px;
+            color: #2d2d2d;
+            font-size: 16px;
+            font-weight: 500 !important;
+          }
+
+          p.especialidade-card-medicos{
+            display: inline-block;
+            width: 50%;
+            color: #0080bb;
+          }
+
+          p.crm-card-medicos{
+            display: inline-block;
+            width: 48%;
+            text-align: right;
+          }
+
+          p.descricao-card-medicos{
+            display: block;
+            padding: 10px;
+            margin: 5px 0px 10px;
+            font-size: 12px;
+            background: #eeeeee;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            white-space: normal;
+            text-align: center;
+          }
+
+          p.informacao-endereco{
+            margin-bottom: 5px;
+          }
+
+          p {
+            display: block;
+            margin-bottom: 0px;
+            color: #2d2d2d;
+          }
+
+          .content-button-card-medicos {
+            padding-top: 10px;
+            margin-top: 10px;
+            border-top: 1px solid #dddddd;
+
+            .button-detalhes-medicos {
+              display: block;
+              width: 100%;
+              margin-top: 5px;
+              padding: 10px 24px;
+              background: #12afab;
+              border: 1px solid #12afab;
+              border-radius: 50px;
+              color: #ffffff;
+              font-family: roboto;
+              font-size: 14px;
+              font-weight: 400;
+
+              &:hover {
+                background: #12afab;
+              }
+
+              &:focus {
+                background: #12afab;
+              }
+
+              i {
+                margin-right: 5px;
+              }
+            }
+          }
+
+          .content-buttons-detalhes-medicos {
+            padding-top: 15px;
+            margin-top: 15px;
+            border-top: 1px solid #dddddd;
+            text-align: right;
+
+            .button-card-detalhes-medicos-resultados {
+              display: inline-block;
+              padding: 7px 11px;
+              float: left;
+              background: #0080bb;
+              border: 1px solid #0080bb;
+              border-radius: 50px;
+              color: #ffffff;
+              font-family: roboto;
+              font-size: 14px;
+              font-weight: 400;
+
+              &:hover {
+                background: #0080bb;
+              }
+
+              &:focus {
+                background: #0080bb;
+              }
+            }
+
+            .button-card-agendar-consulta {
+              display: inline-block;
+              padding: 7px 20px;
+              float: right;
+              background: #12afab;
+              border: 1px solid #12afab;
+              border-radius: 50px;
+              color: #ffffff;
+              font-family: roboto;
+              font-size: 14px;
+              font-weight: 400;
+
+              &:hover {
+                background: #12afab;
+              }
+
+              &:focus {
+                background: #12afab;
+              }
+
+              i {
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.ion-content-agendar-consulta-fomulario {
+
+  .row {
+    padding: 0px;
+
+    .col {
+      padding: 0px;
+
+      .list-inset {
+        margin: 0px;
+        background: transparent;
+
+        .item-input {
+          padding: 5px;
+          margin-bottom: 20px;
+          background: transparent;
+          border: none;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+          position: relative;
+
+          .input-label {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+          }
+
+          input[type="text"] {
+            margin-top: 0px;
+            padding: 5px 0px !important;
+            color: rgba(255, 255, 255, 0.9);
+            background: transparent;
+          }
+
+          input[type="date"] {
+            margin-top: 0px;
+            padding: 5px 0px !important;
+            color: rgba(255, 255, 255, 0.9);
+            background: transparent;
+          }
+
+          select {
+            margin-top: 0px;
+            color: rgba(255, 255, 255, 0.9);
+            background: transparent;
+          }
+
+          .button-calendar-hidden {
+            padding: 0px;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 18px;
+            background: transparent;
+            border: none;
+            position: absolute;
+            right: 12px;
+            bottom: 10px;;
+          }
+        }
+      }
+
+      .button-confirmar-agendamento {
+        margin-bottom: 40px;
+        background: #12afab !important;
+        border: 1px solid #12afab;
+        border-radius: 50px;
+        color: #FFFFFF;
+        transition: 1s;
+      }
+    }
+  }
+}
+
+.popup-container{
+
+  .popup{
+    border-radius: 5px !important;
+    background-color: rgba(255, 255, 255, 1) !important;
+
+    .popup-body{
+      padding-top: 20px !important;
+
+      span{
+        font-weight: 300 !important;
+      }
+    }
+
+    .popup-buttons{
+
+      .button{
+        border-radius: 50px !important;
+      }
+
+      .button-positive{
+        background-color: #12afab !important;
+
+        &:hover{
+          background-color: #119b98 !important;
+        }
+
+        &:focus{
+          background-color: #119b98 !important;
+        }
+      }
+    }
+  }
+}
+
+/*Efeito Animate do Angular Js*/
+
+.animate-show.ng-hide-add,
+.animate-show.ng-hide-remove {
+  -webkit-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  display: block !important;
+}
+
+.animate-show.ng-hide-add.ng-hide-add-active,
+.animate-show.ng-hide-remove {
+  line-height: 0;
+  opacity: 0;
+  padding: 0px;
+}
+
+.animate-show.ng-hide-add,
+.animate-show.ng-hide-remove.ng-hide-remove-active {
+  line-height: 20px;
+  opacity: 1;
+  padding: 0px;
+  border: none;
+  background: transparent;
+}
+
+/*Códigos que ainda devo verificar antes de fechar a versão*/
+
+#toast-container .toast-close-button {
+  right: 0px !important;
+}
+
+.toast-info {
+  background-color: #14d1e4 !important;
+  box-shadow: none !important;
+}
+
+.toast-error {
+  background-color: #d43a20;
+  box-shadow: none !important;
+}
+/*
+.card-divider-home {
+  width: 100%;
+  padding: 15px;
+  position: absolute;
+  z-index: 5;
+  bottom: 0px;
+  border-color: #22c6de;
+  background-color: #22c6de;
+  background-image: linear-gradient(0deg, #22c6de, #22c6de 50%, transparent 50%);
+  color: #FFFFFF;
+}
+
+.ion-content-home {
+  display: block;
+  height: 100%;
+}
+
+.card-agendar-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card-home-shadow {
+  display: block;
+  height: 100%;
+  margin: 0px;
+  position: relative;
+}*/
+
+@media (min-width: 768px) and (max-width: 991px){
+
+  .ion-content-login{
+    padding: 30px 15px;
+
+    .content-logo{
+      padding: 25% 0px 5%;
+
+      .logo {
+        width: 260px;
+      }
+    }
+  }
+
+  .ion-content-homepage{
+
+    .content-dados-home{
+
+      .content-data-home{
+        padding: 100px 15px 100px;
+      }
+    }
+  }
+
+  .ion-content-agendarconsulta{
+
+    #filtro{
+      margin: 0px 10px;
+    }
+
+    .content-button-show-filter{
+      margin: 0px 10px;
+    }
+
+    .content-lista-medicos{
+      display: inline-block;
+      width: 50%;
+      padding: 0px 10px;
+      vertical-align: top;
+    }
+  }
+
+  .ion-content-minhas-consultas{
+
+    .content-filtro-minhas-consultas{
+
+      .card-filtro{
+        margin: 0px 10px;
+      }
+
+      .content-abrir-filtro{
+        margin: 0px 10px;
+      }
+    }
+
+    .content-itens-tablet{
+      display: block;
+      padding: 0px 10px;
+      
+      .item-card-tablet{
+        display: inline-block;
+        width: 50%;
+        padding: 0px 10px;
+        vertical-align: top;
+
+        .link-detalhes-medico{
+          margin: 15px 0px 0px;
+        }
+      }
+    }
+  }
+
+  .ion-content-minhaconta{
+    padding: 30px 20px;
+
+    .button-add-perfil{
+      margin: 0px 10px;
+    }
+
+    .content-itens-tablet{
+      display: block;
+      padding: 0px 10px;
+
+      .item-card-tablet{
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+      }
+    }
+  }
+
+  .ion-content-senha{
+    padding: 30px 15px;
+  }
+
+  .ion-content-agendarconsulta{
+    padding: 30px;
+  }
+
+}

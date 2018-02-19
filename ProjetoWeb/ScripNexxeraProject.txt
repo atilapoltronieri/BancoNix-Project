@@ -1,0 +1,35 @@
+Create Database NexxeraProject 
+go
+
+use NexxeraProject 
+go
+
+create table Usuario  (
+    id int NOT NULL IDENTITY ,
+    nome varchar(128) NOT NULL,
+    cnpj varchar(14) NOT NULL UNIQUE,
+	PRIMARY KEY CLUSTERED(id)
+)
+go
+
+create table Transferencia  (
+    id int NOT NULL IDENTITY ,
+    usuario_id int NOT NULL,
+    pagador_nome varchar(128) NOT NULL,
+    pagador_banco varchar(3) NOT NULL,
+    pagador_agencia varchar(4) NOT NULL,
+    pagador_conta varchar(6) NOT NULL,
+    beneficiario_nome varchar(128) NOT NULL,
+    beneficiario_banco varchar(3) NOT NULL,
+    beneficiario_agencia varchar(4) NOT NULL,
+    beneficiario_conta varchar(6) NOT NULL,
+	valor numeric(15,2) NOT NULL,
+	tipo varchar (4),
+	status varchar (12),
+	data datetime DEFAULT GETDATE(),
+	PRIMARY KEY CLUSTERED(ID),
+    FOREIGN KEY (usuario_id) REFERENCES usuario(id),
+	CONSTRAINT Chk_tipo CHECK (tipo in ('CC','TED','DOC')),	
+	CONSTRAINT Chk_status CHECK (status in ('OK','ERRO','DELETADO'))
+)
+go

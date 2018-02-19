@@ -1,0 +1,71 @@
+nav{
+	background: #87bf66;
+}
+
+.p-t-50{
+	padding-top: 50px;
+}
+
+table.bordered>tbody>tr:last-child{
+	border: none;
+}
+
+.default-color{
+	background: #87bf66;
+}
+
+.default-color:hover{
+	background: #7bad5d;
+}
+
+@media (max-width: 767px){
+	
+	.default-color {
+		display: block;
+		float: initial !important;
+		margin-top: 10px;
+	}
+	
+}
+
+@media (min-width: 1024px){
+
+	nav .brand-logo{
+		padding-left: 15px;
+	}
+	
+}
+
+td:hover
+{
+	cursor: pointer;	
+}
+
+.slim .row
+{
+	margin-bottom:0px;
+}
+
+.text-right
+{
+	text-align:right;
+}
+
+.text-left
+{
+	font-weight: bold;
+	padding-right:100px;
+}
+
+h4
+{
+	margin-top:18px;
+}
+
+.border-right
+{
+	border-right:2px solid white;
+	border-color:white;
+	padding-right: 15px;
+    padding-left: 15px;
+}

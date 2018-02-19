@@ -1,0 +1,917 @@
+@charset "UTF-8";
+/* Empty. Add your own CSS if you like */
+.bar-uniconsulta {
+  background: #0080bb;
+  border-bottom: none; }
+
+.title-home {
+  margin: 0px !important; }
+
+[nav-bar-transition="ios"] [nav-bar="active"] .bar {
+  background: #0080bb;
+  border-bottom: transparent; }
+
+.button-menu-uniconsulta {
+  color: #FFFFFF; }
+  .button-menu-uniconsulta:hover {
+    color: #FFFFFF; }
+
+.scroll {
+  width: 100%;
+  height: 100%; }
+
+.content-logo {
+  padding: 25% 0px 0pc;
+  text-align: center; }
+
+.logo {
+  width: 215px; }
+
+/*Loading do Aplicativo*/
+.spinner-design {
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); }
+  .spinner-design .loading-design {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 15%; }
+
+/*Loading do Aplicativo*/
+.bar {
+  height: 55px; }
+  .bar .button.back-button, .bar .bar button.back-button {
+    padding-top: 5px;
+    color: #ffffff;
+    font-weight: 300; }
+    .bar .button.back-button .default-title, .bar .bar button.back-button .default-title {
+      font-size: 0px; }
+    .bar .button.back-button .default-title:after, .bar .bar button.back-button .default-title:after {
+      content: "Voltar";
+      font-size: 16px; }
+    .bar .button.back-button .default-title.hide, .bar .bar button.back-button .default-title.hide {
+      display: block !important; }
+    .bar .button.back-button .previous-title, .bar .bar button.back-button .previous-title {
+      display: none; }
+  .bar .title {
+    /*left: 0px !important;*/
+    height: 55px;
+    line-height: 55px !important;
+    text-align: center !important;
+    color: #ffffff;
+    font-size: 16px !important;
+    font-weight: 300; }
+    .bar .title img {
+      width: 160px;
+      padding-top: 12px; }
+
+.ion-content-login {
+  width: 100%;
+  background: #0080bb; }
+  .ion-content-login .list {
+    margin: 0px 10px;
+    background: transparent; }
+    .ion-content-login .list .item-input {
+      padding: 5px;
+      margin-bottom: 10px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+      position: relative; }
+      .ion-content-login .list .item-input .input-label {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px; }
+      .ion-content-login .list .item-input input[type="text"] {
+        padding-left: 20px;
+        padding-right: 10px;
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent; }
+      .ion-content-login .list .item-input input[type="text"]::placeholder {
+        color: rgba(255, 255, 255, 0.9); }
+      .ion-content-login .list .item-input input[type="password"] {
+        padding-left: 20px;
+        padding-right: 10px;
+        color: rgba(255, 255, 255, 0.9); }
+    .ion-content-login .list .user-input:before {
+      position: absolute;
+      bottom: 13px;
+      color: rgba(255, 255, 255, 0.9);
+      content: "\f2c0";
+      font-family: FontAwesome;
+      font-size: 14px;
+      font-weight: normal; }
+    .ion-content-login .list .password-input:before {
+      position: absolute;
+      bottom: 13px;
+      color: rgba(255, 255, 255, 0.9);
+      content: "\f023";
+      font-family: FontAwesome;
+      font-size: 14px;
+      font-weight: normal; }
+  .ion-content-login .ion-content-buttons-login {
+    padding: 0px 15px; }
+    .ion-content-login .ion-content-buttons-login .button-login {
+      background: #12afab !important;
+      border: 1px solid #12afab;
+      border-radius: 50px;
+      color: #FFFFFF;
+      transition: 1s; }
+      .ion-content-login .ion-content-buttons-login .button-login:hover {
+        background: #129a97;
+        border: 1px solid #129a97;
+        color: #ffffff;
+        transition: 1s; }
+      .ion-content-login .ion-content-buttons-login .button-login:focus {
+        background: #129a97;
+        border: 1px solid #129a97;
+        color: #ffffff;
+        transition: 1s; }
+  .ion-content-login .content-button-cadastrar {
+    display: block; }
+    .ion-content-login .content-button-cadastrar .button-cadastrar {
+      min-height: initial;
+      line-height: initial;
+      margin: 0px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 12px;
+      background: transparent;
+      text-align: right; }
+    .ion-content-login .content-button-cadastrar .button-cadastrar:hover {
+      text-decoration: none; }
+    .ion-content-login .content-button-cadastrar .button-cadastrar.activated {
+      border: 1px solid transparent;
+      text-decoration: none; }
+  .ion-content-login .content-button-recuperar-senha {
+    display: block; }
+    .ion-content-login .content-button-recuperar-senha .button-recuperar-senha {
+      min-height: initial;
+      line-height: initial;
+      margin: 0px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 12px;
+      background: transparent;
+      text-align: left; }
+    .ion-content-login .content-button-recuperar-senha .button-recuperar-senha:hover {
+      text-decoration: none; }
+    .ion-content-login .content-button-recuperar-senha .button-recuperar-senha.activated {
+      border: 1px solid transparent;
+      text-decoration: none; }
+
+.ion-content-registrar .list .item-input .input-label {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px; }
+.ion-content-registrar .list .item-input input[type="text"] {
+  margin-top: 0px;
+  padding: 5px 0px !important;
+  background: transparent; }
+.ion-content-registrar .list .item-input input[type="password"] {
+  padding: 5px 0px !important;
+  background: transparent; }
+.ion-content-registrar .ion-content-button-registrar {
+  padding: 0px 15px; }
+  .ion-content-registrar .ion-content-button-registrar input[type="submit"] {
+    background: #12afab !important;
+    border: 1px solid #12afab;
+    border-radius: 50px;
+    color: #FFFFFF;
+    transition: 1s; }
+
+.ion-content-senha {
+  background: #0080bb; }
+  .ion-content-senha .list-inset {
+    margin: 0px 10px;
+    background: transparent; }
+    .ion-content-senha .list-inset .item-input {
+      padding: 5px;
+      margin-bottom: 10px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+      position: relative; }
+      .ion-content-senha .list-inset .item-input .input-label {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px; }
+      .ion-content-senha .list-inset .item-input input[type="text"] {
+        margin-top: 0px;
+        padding: 5px 0px !important;
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent; }
+      .ion-content-senha .list-inset .item-input input[type="password"] {
+        margin-top: 0px;
+        padding: 5px 0px !important;
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent; }
+  .ion-content-senha .button-senha {
+    background: #12afab !important;
+    border: 1px solid #12afab;
+    border-radius: 50px;
+    color: #FFFFFF;
+    transition: 1s; }
+
+.ion-content-homepage {
+  /*background: #F9F9F9;*/
+  padding: 0px;
+  /*background-image: url(../img/background-home.jpg);
+  background-size: 350%;
+  background-position-x: 45%;
+  background-repeat: no-repeat;*/ }
+  .ion-content-homepage .content-dados-home {
+    display: block;
+    width: 100%;
+    height: 75%;
+    position: relative;
+    z-index: 1;
+    background-image: url(../img/perfil-background.jpg);
+    background-size: cover;
+    background-position-x: 40%;
+    background-repeat: no-repeat; }
+    .ion-content-homepage .content-dados-home .pelicula-home {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: 2;
+      background: rgba(0, 0, 0, 0.4); }
+    .ion-content-homepage .content-dados-home .content-data-home {
+      display: block;
+      padding: 30px 15px 15px;
+      color: #ffffff;
+      position: relative;
+      z-index: 3;
+      text-align: center; }
+      .ion-content-homepage .content-dados-home .content-data-home .dia-semana {
+        display: block;
+        font-size: 16px; }
+      .ion-content-homepage .content-dados-home .content-data-home .dia-mes {
+        display: block;
+        font-size: 80px;
+        line-height: initial; }
+      .ion-content-homepage .content-dados-home .content-data-home .mes-ano {
+        display: block;
+        font-size: 16px; }
+  .ion-content-homepage .home-content-cards {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 2; }
+    .ion-content-homepage .home-content-cards .row {
+      padding: 0px; }
+      .ion-content-homepage .home-content-cards .row .col-100 {
+        padding: 0px; }
+        .ion-content-homepage .home-content-cards .row .col-100 .item-card-home {
+          display: block;
+          width: 100%;
+          height: auto;
+          padding: 20px 75px;
+          margin: 0 auto;
+          background: #0080bb;
+          border-radius: 0px;
+          border-top: 1px solid #006696;
+          color: #FFFFFF;
+          font-size: 16px;
+          font-weight: 300;
+          position: relative;
+          text-align: left; }
+          .ion-content-homepage .home-content-cards .row .col-100 .item-card-home i {
+            font-size: 22px;
+            background: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 60px;
+            height: 60px;
+            padding: 15px;
+            text-align: center; }
+        .ion-content-homepage .home-content-cards .row .col-100 .item-card-consultas i {
+          border-right: 3px solid #12afab; }
+        .ion-content-homepage .home-content-cards .row .col-100 .item-card-minhas-consultas i {
+          border-right: 3px solid #6c7ed6; }
+        .ion-content-homepage .home-content-cards .row .col-100 .item-card-meus-perfis i {
+          border-right: 3px solid #d66c9b; }
+        .ion-content-homepage .home-content-cards .row .col-100 .item-card-minha-conta {
+          cursor: pointer; }
+          .ion-content-homepage .home-content-cards .row .col-100 .item-card-minha-conta i {
+            border-right: 3px solid #e9992e; }
+
+.ion-content-minhas-consultas {
+  width: 100%;
+  padding: 15px 10px;
+  background: #0080bb; }
+  .ion-content-minhas-consultas .content-filtro-minhas-consultas .card-filtro {
+    margin: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px; }
+    .ion-content-minhas-consultas .content-filtro-minhas-consultas .card-filtro .title-fitro-minhas-consultas {
+      display: block;
+      margin: 0px;
+      padding: 15px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 14px;
+      font-weight: 400; }
+    .ion-content-minhas-consultas .content-filtro-minhas-consultas .card-filtro .item-select {
+      background: transparent;
+      border: none; }
+      .ion-content-minhas-consultas .content-filtro-minhas-consultas .card-filtro .item-select .input-label {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+        font-weight: 400; }
+      .ion-content-minhas-consultas .content-filtro-minhas-consultas .card-filtro .item-select select {
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent; }
+    .ion-content-minhas-consultas .content-filtro-minhas-consultas .card-filtro .content-button-hidden-filter {
+      display: block;
+      padding: 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      text-align: right; }
+      .ion-content-minhas-consultas .content-filtro-minhas-consultas .card-filtro .content-button-hidden-filter .msg-filter {
+        float: left;
+        padding-top: 2px;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+        font-weight: 400; }
+      .ion-content-minhas-consultas .content-filtro-minhas-consultas .card-filtro .content-button-hidden-filter .button-hidden-filter {
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent;
+        border: none;
+        position: relative;
+        top: 2px; }
+  .ion-content-minhas-consultas .content-filtro-minhas-consultas .content-abrir-filtro {
+    display: block;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    text-align: right; }
+    .ion-content-minhas-consultas .content-filtro-minhas-consultas .content-abrir-filtro .msg-filter {
+      float: left;
+      padding-top: 2px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 14px;
+      font-weight: 400; }
+    .ion-content-minhas-consultas .content-filtro-minhas-consultas .content-abrir-filtro .button-show-filter {
+      color: rgba(255, 255, 255, 0.9);
+      background: transparent;
+      border: none;
+      position: relative;
+      top: 2px; }
+  .ion-content-minhas-consultas .link-detalhes-medico {
+    display: block;
+    min-height: 115px;
+    margin: 15px 10px 0px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    position: relative; }
+    .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card {
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.2);
+      position: relative; }
+      .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados {
+        margin: 0px;
+        background: transparent;
+        box-shadow: none; }
+        .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados .item-avatar {
+          padding: 0px;
+          min-height: initial;
+          background: transparent;
+          border: none; }
+          .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados .item-avatar h2 {
+            margin-bottom: 5px;
+            color: #2d2d2d;
+            font-size: 16px;
+            font-weight: 500 !important; }
+          .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados .item-avatar p {
+            display: block;
+            color: #2d2d2d;
+            font-weight: 400; }
+          .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados .item-avatar p.data-card-consulta {
+            display: inline-block;
+            width: 50%;
+            color: #0080bb; }
+          .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados .item-avatar p.horario-card-consulta {
+            display: inline-block;
+            width: 48%;
+            text-align: right; }
+          .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados .item-avatar p.nome-medico-card-consulta {
+            display: block;
+            padding: 10px;
+            margin: 5px 0px 10px;
+            font-size: 12px;
+            background: #eeeeee;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            white-space: normal;
+            text-align: center; }
+          .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados .item-avatar p.endereco-card-consulta {
+            margin-bottom: 5px; }
+        .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados .content-button-card-medicos {
+          padding-top: 10px;
+          margin-top: 10px;
+          border-top: 1px solid #dddddd; }
+          .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados .content-button-card-medicos button {
+            display: block;
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px 24px;
+            background: #12afab;
+            border: 1px solid #12afab;
+            border-radius: 50px;
+            color: #ffffff;
+            font-family: roboto;
+            font-size: 14px;
+            font-weight: 400; }
+            .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados .content-button-card-medicos button:hover {
+              background: #12afab; }
+            .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados .content-button-card-medicos button:focus {
+              background: #12afab; }
+            .ion-content-minhas-consultas .link-detalhes-medico .pelicula-item-card .card-lista-resultados .content-button-card-medicos button i {
+              margin-right: 5px; }
+
+.ion-content-minhaconta {
+  width: 100%;
+  background: #0080bb;
+  padding: 15px 10px; }
+  .ion-content-minhaconta .button-add-perfil {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: #12afab !important;
+    border: 1px solid #12afab;
+    border-radius: 50px;
+    color: #FFFFFF;
+    transition: 1s; }
+  .ion-content-minhaconta .list-card-opcoes {
+    margin: 0px; }
+  .ion-content-minhaconta .link-detalhes-medico .card {
+    display: block;
+    min-height: 115px;
+    margin: 15px 0px 0px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    position: relative; }
+    .ion-content-minhaconta .link-detalhes-medico .card .item-avatar {
+      display: block;
+      height: 100%;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.2);
+      position: relative; }
+      .ion-content-minhaconta .link-detalhes-medico .card .item-avatar .content-dados-card-avatar {
+        display: block; }
+        .ion-content-minhaconta .link-detalhes-medico .card .item-avatar .content-dados-card-avatar .nome-usuario-perfil {
+          margin-bottom: 5px;
+          color: #2d2d2d;
+          font-size: 16px;
+          font-weight: 500 !important; }
+        .ion-content-minhaconta .link-detalhes-medico .card .item-avatar .content-dados-card-avatar .nome-convenio-perfil {
+          display: inline-block;
+          width: 50%;
+          color: #0080bb;
+          font-weight: 400; }
+        .ion-content-minhaconta .link-detalhes-medico .card .item-avatar .content-dados-card-avatar .numero-convenio-perfil {
+          display: inline-block;
+          width: 48%;
+          color: #2d2d2d;
+          font-weight: 400;
+          text-align: right; }
+        .ion-content-minhaconta .link-detalhes-medico .card .item-avatar .content-dados-card-avatar .item-card-perfil {
+          display: block;
+          margin-bottom: 0px;
+          color: #2d2d2d;
+          font-weight: 400; }
+        .ion-content-minhaconta .link-detalhes-medico .card .item-avatar .content-dados-card-avatar .content-button-card-perfil {
+          padding-top: 10px;
+          margin-top: 10px;
+          border-top: 1px solid #dddddd; }
+          .ion-content-minhaconta .link-detalhes-medico .card .item-avatar .content-dados-card-avatar .content-button-card-perfil .button-detalhes-cards-perfil {
+            display: block;
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px 24px;
+            background: #12afab;
+            border: 1px solid #12afab;
+            border-radius: 50px;
+            color: #ffffff;
+            font-family: roboto;
+            font-size: 14px;
+            font-weight: 400; }
+            .ion-content-minhaconta .link-detalhes-medico .card .item-avatar .content-dados-card-avatar .content-button-card-perfil .button-detalhes-cards-perfil i {
+              margin-right: 5px; }
+            .ion-content-minhaconta .link-detalhes-medico .card .item-avatar .content-dados-card-avatar .content-button-card-perfil .button-detalhes-cards-perfil:hover {
+              background: #12afab; }
+            .ion-content-minhaconta .link-detalhes-medico .card .item-avatar .content-dados-card-avatar .content-button-card-perfil .button-detalhes-cards-perfil:focus {
+              background: #12afab; }
+
+.content-meus-dados .list {
+  margin: 0px;
+  background: transparent; }
+  .content-meus-dados .list .item-input {
+    padding: 5px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    position: relative; }
+    .content-meus-dados .list .item-input .input-label {
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 14px; }
+    .content-meus-dados .list .item-input select {
+      color: rgba(255, 255, 255, 0.9);
+      background: transparent; }
+    .content-meus-dados .list .item-input input[type="text"] {
+      margin-top: 0px;
+      padding: 5px 0px !important;
+      color: rgba(255, 255, 255, 0.9);
+      background: transparent; }
+.content-meus-dados .button-salvar-meus-dados {
+  margin-bottom: 0px;
+  background: #12afab !important;
+  border: 1px solid #12afab;
+  border-radius: 50px;
+  color: #FFFFFF;
+  transition: 1s; }
+
+.ion-content-agendarconsulta {
+  width: 100%;
+  background: #0080bb;
+  padding: 30px 20px; }
+  .ion-content-agendarconsulta #filtro {
+    margin: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px; }
+    .ion-content-agendarconsulta #filtro .row {
+      padding: 0px; }
+      .ion-content-agendarconsulta #filtro .row .content-buscador-agendamento {
+        padding: 0px; }
+        .ion-content-agendarconsulta #filtro .row .content-buscador-agendamento h2 {
+          display: block;
+          margin: 0px;
+          padding: 15px;
+          color: rgba(255, 255, 255, 0.9);
+          font-size: 14px;
+          font-weight: 400; }
+      .ion-content-agendarconsulta #filtro .row .list-inset {
+        margin: 0px;
+        background: transparent; }
+        .ion-content-agendarconsulta #filtro .row .list-inset .item-input {
+          background: transparent;
+          border: none; }
+          .ion-content-agendarconsulta #filtro .row .list-inset .item-input .input-label {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+            font-weight: 400; }
+          .ion-content-agendarconsulta #filtro .row .list-inset .item-input select {
+            padding: 0 30px 0 16px;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+            font-weight: 400;
+            background: transparent; }
+      .ion-content-agendarconsulta #filtro .row .content-button-buscador {
+        display: block;
+        padding: 15px; }
+        .ion-content-agendarconsulta #filtro .row .content-button-buscador a {
+          margin: 0px;
+          background: #12afab !important;
+          border: 1px solid #12afab;
+          border-radius: 50px;
+          color: #FFFFFF;
+          transition: 1s; }
+    .ion-content-agendarconsulta #filtro .content-button-hidden-filter {
+      display: block;
+      padding: 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      text-align: right; }
+      .ion-content-agendarconsulta #filtro .content-button-hidden-filter .msg-filter {
+        float: left;
+        padding-top: 2px;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+        font-weight: 400; }
+      .ion-content-agendarconsulta #filtro .content-button-hidden-filter .button-hidden-filter {
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent;
+        border: none;
+        position: relative;
+        top: 2px; }
+  .ion-content-agendarconsulta .content-button-show-filter {
+    display: block;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    text-align: right; }
+    .ion-content-agendarconsulta .content-button-show-filter .msg-filter {
+      float: left;
+      padding-top: 2px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 14px;
+      font-weight: 400; }
+    .ion-content-agendarconsulta .content-button-show-filter .button-show-filter {
+      color: rgba(255, 255, 255, 0.9);
+      background: transparent;
+      border: none;
+      position: relative;
+      top: 2px; }
+  .ion-content-agendarconsulta .content-lista-medicos .row {
+    padding: 0px; }
+    .ion-content-agendarconsulta .content-lista-medicos .row .col-100 {
+      padding: 0px; }
+  .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos {
+    display: block;
+    min-height: 145px;
+    margin: 15px 0px 0px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    position: relative; }
+    .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos {
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.2); }
+      .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar {
+        display: block;
+        padding: 0px;
+        background: transparent;
+        border: none; }
+        .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .nome-medico {
+          margin-bottom: 5px;
+          color: #2d2d2d;
+          font-size: 16px;
+          font-weight: 500 !important; }
+        .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar p.especialidade-card-medicos {
+          display: inline-block;
+          width: 50%;
+          color: #0080bb; }
+        .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar p.crm-card-medicos {
+          display: inline-block;
+          width: 48%;
+          text-align: right; }
+        .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar p.descricao-card-medicos {
+          display: block;
+          padding: 10px;
+          margin: 5px 0px 10px;
+          font-size: 12px;
+          background: #eeeeee;
+          border: 1px solid #dddddd;
+          border-radius: 5px;
+          white-space: normal;
+          text-align: center; }
+        .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar p.informacao-endereco {
+          margin-bottom: 5px; }
+        .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar p {
+          display: block;
+          margin-bottom: 0px;
+          color: #2d2d2d; }
+        .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-button-card-medicos {
+          padding-top: 10px;
+          margin-top: 10px;
+          border-top: 1px solid #dddddd; }
+          .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-button-card-medicos .button-detalhes-medicos {
+            display: block;
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px 24px;
+            background: #12afab;
+            border: 1px solid #12afab;
+            border-radius: 50px;
+            color: #ffffff;
+            font-family: roboto;
+            font-size: 14px;
+            font-weight: 400; }
+            .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-button-card-medicos .button-detalhes-medicos:hover {
+              background: #12afab; }
+            .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-button-card-medicos .button-detalhes-medicos:focus {
+              background: #12afab; }
+            .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-button-card-medicos .button-detalhes-medicos i {
+              margin-right: 5px; }
+        .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-buttons-detalhes-medicos {
+          padding-top: 15px;
+          margin-top: 15px;
+          border-top: 1px solid #dddddd;
+          text-align: right; }
+          .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-buttons-detalhes-medicos .button-card-detalhes-medicos-resultados {
+            display: inline-block;
+            padding: 7px 11px;
+            float: left;
+            background: #0080bb;
+            border: 1px solid #0080bb;
+            border-radius: 50px;
+            color: #ffffff;
+            font-family: roboto;
+            font-size: 14px;
+            font-weight: 400; }
+            .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-buttons-detalhes-medicos .button-card-detalhes-medicos-resultados:hover {
+              background: #0080bb; }
+            .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-buttons-detalhes-medicos .button-card-detalhes-medicos-resultados:focus {
+              background: #0080bb; }
+          .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-buttons-detalhes-medicos .button-card-agendar-consulta {
+            display: inline-block;
+            padding: 7px 20px;
+            float: right;
+            background: #12afab;
+            border: 1px solid #12afab;
+            border-radius: 50px;
+            color: #ffffff;
+            font-family: roboto;
+            font-size: 14px;
+            font-weight: 400; }
+            .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-buttons-detalhes-medicos .button-card-agendar-consulta:hover {
+              background: #12afab; }
+            .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-buttons-detalhes-medicos .button-card-agendar-consulta:focus {
+              background: #12afab; }
+            .ion-content-agendarconsulta .content-lista-medicos .card-lista-resultados-medicos .pelicula-card-medicos .item-avatar .content-buttons-detalhes-medicos .button-card-agendar-consulta i {
+              margin-right: 5px; }
+
+.ion-content-agendar-consulta-fomulario .row {
+  padding: 0px; }
+  .ion-content-agendar-consulta-fomulario .row .col {
+    padding: 0px; }
+    .ion-content-agendar-consulta-fomulario .row .col .list-inset {
+      margin: 0px;
+      background: transparent; }
+      .ion-content-agendar-consulta-fomulario .row .col .list-inset .item-input {
+        padding: 5px;
+        margin-bottom: 20px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+        position: relative; }
+        .ion-content-agendar-consulta-fomulario .row .col .list-inset .item-input .input-label {
+          color: rgba(255, 255, 255, 0.9);
+          font-size: 14px; }
+        .ion-content-agendar-consulta-fomulario .row .col .list-inset .item-input input[type="text"] {
+          margin-top: 0px;
+          padding: 5px 0px !important;
+          color: rgba(255, 255, 255, 0.9);
+          background: transparent; }
+        .ion-content-agendar-consulta-fomulario .row .col .list-inset .item-input input[type="date"] {
+          margin-top: 0px;
+          padding: 5px 0px !important;
+          color: rgba(255, 255, 255, 0.9);
+          background: transparent; }
+        .ion-content-agendar-consulta-fomulario .row .col .list-inset .item-input select {
+          margin-top: 0px;
+          color: rgba(255, 255, 255, 0.9);
+          background: transparent; }
+        .ion-content-agendar-consulta-fomulario .row .col .list-inset .item-input .button-calendar-hidden {
+          padding: 0px;
+          color: rgba(255, 255, 255, 0.9);
+          font-size: 18px;
+          background: transparent;
+          border: none;
+          position: absolute;
+          right: 12px;
+          bottom: 10px; }
+    .ion-content-agendar-consulta-fomulario .row .col .button-confirmar-agendamento {
+      margin-bottom: 40px;
+      background: #12afab !important;
+      border: 1px solid #12afab;
+      border-radius: 50px;
+      color: #FFFFFF;
+      transition: 1s; }
+
+.popup-container .popup {
+  border-radius: 5px !important;
+  background-color: white !important; }
+  .popup-container .popup .popup-body {
+    padding-top: 20px !important; }
+    .popup-container .popup .popup-body span {
+      font-weight: 300 !important; }
+  .popup-container .popup .popup-buttons .button {
+    border-radius: 50px !important; }
+  .popup-container .popup .popup-buttons .button-positive {
+    background-color: #12afab !important; }
+    .popup-container .popup .popup-buttons .button-positive:hover {
+      background-color: #119b98 !important; }
+    .popup-container .popup .popup-buttons .button-positive:focus {
+      background-color: #119b98 !important; }
+
+/*Efeito Animate do Angular Js*/
+.animate-show.ng-hide-add,
+.animate-show.ng-hide-remove {
+  -webkit-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  display: block !important; }
+
+.animate-show.ng-hide-add.ng-hide-add-active,
+.animate-show.ng-hide-remove {
+  line-height: 0;
+  opacity: 0;
+  padding: 0px; }
+
+.animate-show.ng-hide-add,
+.animate-show.ng-hide-remove.ng-hide-remove-active {
+  line-height: 20px;
+  opacity: 1;
+  padding: 0px;
+  border: none;
+  background: transparent; }
+
+/*C├│digos que ainda devo verificar antes de fechar a vers├úo*/
+#toast-container .toast-close-button {
+  right: 0px !important; }
+
+.toast-info {
+  background-color: #14d1e4 !important;
+  box-shadow: none !important; }
+
+.toast-error {
+  background-color: #d43a20;
+  box-shadow: none !important; }
+
+/*
+.card-divider-home {
+  width: 100%;
+  padding: 15px;
+  position: absolute;
+  z-index: 5;
+  bottom: 0px;
+  border-color: #22c6de;
+  background-color: #22c6de;
+  background-image: linear-gradient(0deg, #22c6de, #22c6de 50%, transparent 50%);
+  color: #FFFFFF;
+}
+
+.ion-content-home {
+  display: block;
+  height: 100%;
+}
+
+.card-agendar-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card-home-shadow {
+  display: block;
+  height: 100%;
+  margin: 0px;
+  position: relative;
+}*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .ion-content-login {
+    padding: 30px 15px; }
+    .ion-content-login .content-logo {
+      padding: 25% 0px 5%; }
+      .ion-content-login .content-logo .logo {
+        width: 260px; }
+
+  .ion-content-homepage .content-dados-home .content-data-home {
+    padding: 100px 15px 100px; }
+
+  .ion-content-agendarconsulta #filtro {
+    margin: 0px 10px; }
+  .ion-content-agendarconsulta .content-button-show-filter {
+    margin: 0px 10px; }
+  .ion-content-agendarconsulta .content-lista-medicos {
+    display: inline-block;
+    width: 50%;
+    padding: 0px 10px;
+    vertical-align: top; }
+
+  .ion-content-minhas-consultas .content-filtro-minhas-consultas .card-filtro {
+    margin: 0px 10px; }
+  .ion-content-minhas-consultas .content-filtro-minhas-consultas .content-abrir-filtro {
+    margin: 0px 10px; }
+  .ion-content-minhas-consultas .content-itens-tablet {
+    display: block;
+    padding: 0px 10px; }
+    .ion-content-minhas-consultas .content-itens-tablet .item-card-tablet {
+      display: inline-block;
+      width: 50%;
+      padding: 0px 10px;
+      vertical-align: top; }
+      .ion-content-minhas-consultas .content-itens-tablet .item-card-tablet .link-detalhes-medico {
+        margin: 15px 0px 0px; }
+
+  .ion-content-minhaconta {
+    padding: 30px 20px; }
+    .ion-content-minhaconta .button-add-perfil {
+      margin: 0px 10px; }
+    .ion-content-minhaconta .content-itens-tablet {
+      display: block;
+      padding: 0px 10px; }
+      .ion-content-minhaconta .content-itens-tablet .item-card-tablet {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top; }
+
+  .ion-content-senha {
+    padding: 30px 15px; }
+
+  .ion-content-agendarconsulta {
+    padding: 30px; } }
+
+/*# sourceMappingURL=style.css.map */
